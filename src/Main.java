@@ -1,3 +1,4 @@
+import patternmatching.SwitchPatternMatch;
 import prng.PseudoRandomNumber;
 import recordclass.RecordClassExample1;
 import recordclass.RecordClassExample2;
@@ -15,5 +16,8 @@ public class Main {
 
         PseudoRandomNumber s = new PseudoRandomNumber();
         s.getRandomNumber();
+
+        SwitchPatternMatch sm = new SwitchPatternMatch();
+        sm.test("ajay");
     }
 }
